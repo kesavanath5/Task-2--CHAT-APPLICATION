@@ -98,3 +98,4 @@ This makes the chat app “live” – all messages appear instantly without pag
 This simple chat app demonstrates the power of Socket.IO to build real-time applications. By combining a minimal HTML frontend with a lightweight Node.js backend, users can connect to a single server and chat with each other in real time. The structure is clean, easy to expand, and ideal for learning how live web applications function.
 
 Output:
+![Image](https://github.com/user-attachments/assets/453849ea-2fc8-4772-b3cd-6c3340fd2687)
