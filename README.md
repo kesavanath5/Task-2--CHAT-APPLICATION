@@ -78,15 +78,6 @@ socket.on("chat message", (msg) => {
     io.emit("chat message", msg); // broadcasts to all users
 });
 This means every user connected to the server will receive the message instantly.
-
-The server runs on port 3000:
-
-javascript
-Copy
-Edit
-http.listen(3000, () => {
-    console.log("Server running on http://localhost:3000");
-});
 🔁 Real-Time Communication
 The core feature is real-time data exchange using WebSockets (via Socket.IO).
 
